@@ -32,6 +32,7 @@ public class Slot : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IP
     public void OnPointerDown(PointerEventData eventData)
     {
         Panel.SetActive(true);
+        Panel.GetComponent<Panelka>().amount = int.Parse(amountUI.text);
     }
     public void OnPointerEnter(PointerEventData eventData)
     {

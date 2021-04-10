@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Panel : MonoBehaviour
+public class Panelka : MonoBehaviour
 {
     public Slider slid;
+    public int amount;
+
     void Start()
-    { 
-        slid.maxValue = 
+    {
+        slid.maxValue = amount;
     }
 }
