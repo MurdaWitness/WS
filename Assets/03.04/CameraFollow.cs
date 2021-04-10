@@ -16,7 +16,7 @@ public class CameraFollow : MonoBehaviour
     {
         Follow();
         transform.LookAt(targetLook);
-        if (Input.GetKey(KeyCode.F);
+        if (Input.GetKey(KeyCode.F)) Debug.Log("s");
     }
 
     public void Follow()
